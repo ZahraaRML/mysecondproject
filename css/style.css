@@ -1,0 +1,73 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color:#eee;
+}
+ul li{
+    display:inline-block;
+    margin-left: 20px; 
+}
+ul li a{
+    color: antiquewhite;
+}
+.hello{
+background-image: linear-gradient(to bottom right, #5E8EEE, #EEDA5E);
+text-align: center;
+padding: 8px;
+font-size: 25px;
+}
+ul li:hover{
+    background-color: beige;
+    border-radius: 7px;
+}
+.img{
+background-image: url('../imgs/Landscape-Color.jpg');
+height: 300px;
+background-size: cover;
+background-position: center center;
+}
+.center{
+text-align: center;
+color:rgb(10,20, 70);
+padding-top: 7px;
+padding-bottom: 7px;
+}
+.zr{
+text-align: center;
+margin-left: 70px;
+margin-right: 70px;
+}
+.imgs{
+    margin-left: 220px;
+}
+.container{
+    display: flex;
+   
+}
+.second{
+    background-image: linear-gradient(to bottom right, red, yellow); 
+   text-align: center;
+   width:30%;
+   margin-left:10px;
+   box-shadow: 15px 20px 11px rgb(124, 124, 124);
+}
+
+.last{
+    background-image: linear-gradient(to bottom right, #5E8EEE, #EEDA5E);
+text-align: center;
+padding: 13px;
+font-size: 19px;
+}
+.container  i{
+    font-size: 25px;
+    /* background-color:; */
+    border-radius: 14px;
+    padding: 12px;
+}
+.form{
+   margin: 14px 280px;
+   font-size: 20px;
+   background-color: aliceblue;
+   border-radius: 10px;
+}
